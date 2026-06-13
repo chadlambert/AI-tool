@@ -1,21 +1,12 @@
-import Signin from "@/components/Auth/SignIn";
-import Breadcrumb from "@/components/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sign in | AI Tool - Next.js Template for AI Tools",
-  description: "This is Sign in page for AI Tool",
-  // other metadata
+  title: "AI Tool - Next.js Template for AI Tools",
+  description: "AI Tool - Next.js Template for AI Tools",
 };
 
 const SigninPage = () => {
-  return (
-    <>
-      <Breadcrumb pageTitle="Sign in" />
-
-      <Signin />
-    </>
-  );
+  return null;
 };
 
 export default SigninPage;

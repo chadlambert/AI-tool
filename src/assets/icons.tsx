@@ -24,6 +24,32 @@ export function LinkedinIcon(props: IconProps) {
     </svg>
   );
 }
+//  favicon
+{/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="22" fill="#000000"/>
+  
+  <!-- Subtle gradient background for depth -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="nextGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#00DC82;stop-opacity:0.05" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="100" height="100" rx="22" fill="url(#bgGrad)"/>
+  <rect width="100" height="100" rx="22" fill="url(#nextGlow)"/>
+  
+  <!-- Bold "N" letter as the primary mark -->
+  <text x="50" y="72" font-family="'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="-2">N</text>
+  
+  <!-- Accent dot inspired by Next.js cursor/brand element (similar to the reference image style) -->
+  <circle cx="74" cy="28" r="5" fill="#00DC82" opacity="0.95"/>
+  <circle cx="74" cy="28" r="9" fill="#00DC82" opacity="0.2"/>
+</svg> */}
 
 export function TwitterIcon(props: IconProps) {
   return (
