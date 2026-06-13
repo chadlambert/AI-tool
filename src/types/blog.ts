@@ -1,5 +1,4 @@
-import { PortableTextBlock } from "sanity";
-
+// Blog types have been removed - file kept as placeholder
 export type Author = {
   name: string;
   image: string;
@@ -14,7 +13,7 @@ export type Blog = {
   title: string;
   slug: any;
   metadata?: string;
-  body?: PortableTextBlock[];
+  body?: any;
   mainImage?: any;
   author?: Author;
   tags?: string[];
