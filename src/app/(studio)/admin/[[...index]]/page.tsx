@@ -1,9 +1,7 @@
 "use client";
 
-import { NextStudio } from "next-sanity/studio";
-import config from "../../../../../sanity.config";
+const AdminPage = () => {
+  return null;
+};
 
-export default function AdminPage() {
-  return <NextStudio config={config} />;
-  // return <>this sanity studio page</>;
-}
+export default AdminPage;
